@@ -1,18 +1,19 @@
-import { useState } from "react";
+import { useMemo } from "react";
 import styles from "./Home.module.css";
 import { cars } from "./cars.data.js";
 import CarItem from "./car-item/CarItem";
 
 function Home() {
-  const [count, setCount] = useState(0);
+  const filteredCars = useMemo (() => cars.filter (cars =>
+    cars.price > 1000), [])
 
   return (
     <>
       <div>
         <h1>Cars Catalog</h1>
         <div>
-          {cars.length ? (
-            cars.map((cars) => <CarItem key={cars.id} cars={cars} />)
+          {filteredCars.length ? (
+            filteredCars.map((cars) => <CarItem key={cars.id} cars={cars} />)
           ) : (
             <p>There are no cars</p>
           )}

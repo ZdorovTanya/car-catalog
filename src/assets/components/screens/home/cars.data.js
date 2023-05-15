@@ -12,4 +12,10 @@ export const cars = [
         price: 3000,
         image: '/public/supra.jpg',
     },
+    {
+        id:3,
+        name: 'Land Rover',
+        price: 5000,
+        image: '/public/landrover.jpg',
+    },
 ]
