@@ -2,19 +2,19 @@
 export const cars = [
     {
         id:1,
-        name: 'Honda Civic',
+        name: 'Land Rover 15x5',
         price: 1000,
-        image: '/public/2022_Honda_Civic.webp',
+        image: '/public/landRover15x5.jpg',
     },
     {
         id:2,
-        name: 'Toyota Supra',
-        price: 3000,
-        image: '/public/supra.jpg',
+        name: 'Land Rover 15x3',
+        price: 7000,
+        image: '/public/landRover15x3.jpg',
     },
     {
         id:3,
-        name: 'Land Rover',
+        name: 'Land Rover 1x3',
         price: 5000,
         image: '/public/landrover.jpg',
     },

@@ -1,0 +1,24 @@
+.form {
+  margin: 10px auto 30px;
+}
+
+.form input {
+  padding: 5px;
+  margin: 20px;
+  border: 1px solid rgb(209, 190, 190);
+  outline: none;
+  margin-bottom: 10px;
+}
+
+.form input:focus {
+  border-color: rgb(231, 224, 224);
+}
+
+.form button{
+    height: 27px;
+    width: 50px;
+    background-color: #d7cbcb;
+    border: none; 
+    outline: none;
+    border: 1px solid gray;
+}
